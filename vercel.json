@@ -3,7 +3,7 @@
   "public": true,
   "builds": [
     {
-      "src": "package.json && src/server.ts",
+      "src": "package.json",
       "use": "vercel-sapper"
     }
   ],
